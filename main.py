@@ -1,14 +1,14 @@
 
 """
-Educational post-quantum multi-authority AND-policy encryption.
+Post-quantum multi-authority AND-policy encryption.
 
-Uses:
+Methods used:
     ML-KEM-768       - Post-quantum key encapsulation (FIPS 203)
     HKDF-SHA256      - Derive attribute share-wrapping keys
     AES-256-GCM      - Authenticated encryption
     XOR secret shares - Require every policy attribute
 
-This is NOT a collusion-resistant MA-CP-ABE construction.
+There can be collusion, but may be able to overcome
 
 Requires cryptography >= 47.0.0.
 """
