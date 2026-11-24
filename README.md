@@ -46,3 +46,17 @@ Ciphertext JSON:
   }
 }
 ```
+
+The problem with this code is that the authorities can collude to rebuild the key. With the second code example [](), we overcome collusion:
+
+```
+
+Policy: ['Company:Finance', 'Company:Manager', 'University:Researcher']
+Authorised recipients: ['Dave']
+Dave decrypts: b'Hello'
+Alice access denied
+Bob access denied
+Carol access denied
+Colluders eligible: False
+Collusion test complete
+```
