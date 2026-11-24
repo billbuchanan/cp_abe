@@ -47,7 +47,7 @@ Ciphertext JSON:
 }
 ```
 
-The problem with this code is that the authorities can collude to rebuild the key. With the second code example [](), we overcome collusion:
+The problem with this code is that the authorities can collude to rebuild the key. With the second code example [here](https://github.com/billbuchanan/cp_abe/blob/main/main2_nocol.py), we overcome collusion:
 
 ```
 
