@@ -99,9 +99,7 @@ class Authority:
 
     def issue_key(self, attribute: str) -> MLKEM768PrivateKey:
         """
-        Educational example only.
-
-        Real systems must authenticate users and verify
+        Remember to authenticate users and verify
         eligibility before issuing attribute credentials.
         """
         return self._private[attribute]
