@@ -2,7 +2,7 @@
 A sample run is:
 
 
-```JSON
+```
 Original message: Hello
 
 Policy: ['Company:Finance', 'Company:Manager', 'University:Researcher']
