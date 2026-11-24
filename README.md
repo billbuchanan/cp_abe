@@ -1,6 +1,9 @@
 # Outline
-A sample run is:
+The policy is:
 
+"University:Researcher" ∧ "Company:Finance" ∧ "Company:Manager",
+
+A sample run is:
 
 ```
 Original message: Hello
