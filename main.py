@@ -8,9 +8,8 @@ Methods used:
     AES-256-GCM      - Authenticated encryption
     XOR secret shares - Require every policy attribute
 
-There can be collusion, but may be able to overcome
+There can be collusion, but may be able to be overcome by good seperation
 
-Requires cryptography >= 47.0.0.
 """
 
 from __future__ import annotations
