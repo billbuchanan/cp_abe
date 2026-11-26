@@ -1,4 +1,13 @@
 # Outline
+
+## Lattice-based methods
+The closest code for an implementation of lattice-based ABE is [here](https://github.com/RajWorking/CP-ABE), but it does not work in tests. The paper it is based on is:
+
+```
+An Efficient and Secure Post-Quantum Multi-Authority Ciphertext-Policy Attribute-Based Encryption Method Using Lattice (IEEE INFOCOM 2023).
+```
+
+## Simple all-or-nothing share
 The policy is:
 
 "University:Researcher" ∧ "Company:Finance" ∧ "Company:Manager",
@@ -47,6 +56,7 @@ Ciphertext JSON:
 }
 ```
 
+## Non-collusion PQC ABE
 The problem with this code is that the authorities can collude to rebuild the key. With the second code example [here](https://github.com/billbuchanan/cp_abe/blob/main/main2_nocol.py), we overcome collusion:
 
 ```
