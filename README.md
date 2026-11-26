@@ -7,6 +7,8 @@ The closest code for an implementation of lattice-based ABE is [here](https://gi
 An Efficient and Secure Post-Quantum Multi-Authority Ciphertext-Policy Attribute-Based Encryption Method Using Lattice (IEEE INFOCOM 2023).
 ```
 
+This code does not run MA CP-ABE: [here](github.com/remigerme/CP-ABE?utm_source=chatgpt.com) or [here](https://github.com/eOnofri04/Cross-primitive-comparison-in-CP-ABE)
+
 ## Simple all-or-nothing share
 The policy is:
 
