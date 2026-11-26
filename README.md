@@ -10,6 +10,11 @@ An Efficient and Secure Post-Quantum Multi-Authority Ciphertext-Policy Attribute
 This code does not run MA CP-ABE: [here](github.com/remigerme/CP-ABE?utm_source=chatgpt.com) or [here](https://github.com/eOnofri04/Cross-primitive-comparison-in-CP-ABE)
 
 ## Simple all-or-nothing share
+For this, we have:
+
+<img width="1174" height="862" alt="image" src="https://github.com/user-attachments/assets/65235341-8572-4932-9c17-aa23678ca861" />
+
+
 The policy is:
 
 "University:Researcher" ∧ "Company:Finance" ∧ "Company:Manager",
