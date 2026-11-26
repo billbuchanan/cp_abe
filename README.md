@@ -66,6 +66,10 @@ Ciphertext JSON:
 ## Non-collusion PQC ABE
 The problem with this code is that the authorities can collude to rebuild the key. With the second code example [here](https://github.com/billbuchanan/cp_abe/blob/main/main2_nocol.py), we overcome collusion:
 
+
+<img width="1204" height="850" alt="image" src="https://github.com/user-attachments/assets/a4199f48-5dc9-4075-93b0-502e5a561bbe" />
+
+
 ```
 
 Policy: ['Company:Finance', 'Company:Manager', 'University:Researcher']
